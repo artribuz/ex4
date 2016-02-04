@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #2E3837;
+}
+header{
+    height: 100px;
+    background-color: #5CCCC0;
+    font-family: 'Fugaz One', cursive;
+    font-size: 48pt;
+    text-align: center;
+    color: #006359;
+}
+section{
+    position: absolute;
+    width: 700px;
+    height:85%;
+}
+section#phone img, section#planner img, section#pen img, section#headphones img, section#flashdrive img{
+    position:relative;
+    float:left;
+    padding-top:100px;
+    width:250px;
+}
+section#phone p, section#planner p, section#pen p, section#headphones p, section#flashdrive p{
+    margin-left: 250px;
+    padding-left: 50px;
+    padding-right: 25px;*/
+    padding-top: 15px;
+    font-family: 'Droid Sans', sans-serif;    
+}
+section#phone h1, section#planner h1, section#pen h1, section#headphones h1, section#flashdrive h1{
+    font-family: 'Fugaz One', cursive;
+    margin-left: 275px;
+    margin-top: 150px
+}
+section#phone{
+    left:200px;
+    background-color: #A3A948;
+}
+section#planner{
+    left:250px;
+    background-color: #EDB92E;
+}
+
+section#pen{
+    left:300px;
+    background-color: #F85931;
+}
+section#headphones{
+    left:350px;
+    background-color: #CE1836;
+}
+section#flashdrive{
+    left:400px;
+    background-color: #009989;
+}
+section#hidez{
+    left:450px;
+    background-color: #2E3837;
+}
+footer{
+    text-align:center;
+    font-family: 'Droid Sans', sans-serif;
+    background-color:#5CCCC0;
+    bottom:0px;
+    position:fixed;
+    width:100%;
+}
+a:link, a:visited{
+    color: #006359;
+    text-decoration: none;
+    padding-right: 15px;
+}
+a:hover{
+    color:#CE1836;
+}
