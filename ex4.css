@@ -29,9 +29,9 @@ section#phone img, section#planner img, section#pen img, section#headphones img,
 section#phone p, section#planner p, section#pen p, section#headphones p, section#flashdrive p{
     margin-left: 250px;
     padding-left: 50px;
-    padding-right: 25px;*/
+    padding-right: 25px;
     padding-top: 15px;
-    font-family: 'Droid Sans', sans-serif;    
+    font-family: 'Droid Sans', sans-serif;
 }
 section#phone h1, section#planner h1, section#pen h1, section#headphones h1, section#flashdrive h1{
     font-family: 'Fugaz One', cursive;
